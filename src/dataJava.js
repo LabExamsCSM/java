@@ -706,7 +706,7 @@ export const DataJava = [
         }`
     },
     {
-        unit:1,
+        unit:2,
         title:`Simple Calculator`,
         code:`
 import java.awt.*;
