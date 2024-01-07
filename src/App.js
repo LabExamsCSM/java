@@ -4,7 +4,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { grey } from "@mui/material/colors";
 import { Grid } from "@mui/material";
 import Code from "./components/Code";
-import { DataJava } from "./dataJava";
+import { DataR } from "./dataR";
 import { useState } from "react";
 import LiveSearch from "./components/LiveSearch";
 import Header from "./components/Header";
@@ -17,7 +17,7 @@ const darkTheme = createTheme({
 export default function App() {
   const [type, setType] = useState("all");
   const [searchValue, setSearchValue] = useState(null);
-  let Data = DataJava;
+  let Data = DataR;
 
   function handleType(text) {
     setType(() => text);
