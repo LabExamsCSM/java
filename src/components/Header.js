@@ -14,7 +14,7 @@ function Header() {
         paddingTop={10}
         marginBottom={5}
       >
-        R LAB PROGRAMS
+        Java Lab Programs
       </Typography>
     </main>
   );
